@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <main>
+        <main class="container">
             <h1>RETRIEVED DATA</h1>
             <?php
             //API retreiving
@@ -17,9 +17,8 @@
             $result = json_decode($response, true);
             #var_dump($result);
             $result=$result['results'];
-            
             ?>
-            <table>
+            <table class="striped">
                 <tr>
                     <th>Year</th>
                     <th>Semester</th>
