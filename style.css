@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    
+}
+table{
+    /*margin: 2rem;*/
+    border: 1px solid grey;
+}
+
+@media(max-width: 650px){
+    table{
+        font-size: x-small;
+    }
+}
+
+@media(max-width: 450px){
+    table{
+        font-size: xx-small;
+    }
+}
+
+@media(max-width: 350px){
+    table{
+        font-size: 50px;
+    }
+}
