@@ -29,7 +29,7 @@
                 </tr>
                 <?php
                     //making rows
-                    foreach($result as $i=>$row){
+                    foreach($result as $row){
                         echo "<tr>";
                         echo "<td>".$row['year']."</td>";
                         echo "<td> ".$row['semester']."</td>";

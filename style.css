@@ -26,10 +26,7 @@ table{
     table{
         font-size: xx-small;
     }
-    .container{
-        margin-left: 0.5rem;
-    }
-   
+    
 }
 
 @media(max-width: 350px){
